@@ -1,2 +1,1 @@
-# buffer
-create a buffer
+[![C/C++ CI](https://github.com/udaimujai/Assignment_2/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/udaimujai/Assignment_2/actions/workflows/c-cpp.yml)
