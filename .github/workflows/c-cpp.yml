@@ -7,7 +7,7 @@ jobs:
   
   build:
     # This job runs for the push and pull_request events triggered on feature branches
-    if: ${{ github.ref != 'refs/heads/main' && github.event_name == 'pull_request'}}
+    if: ${{ github.ref != 'refs/heads/master' && github.event_name == 'pull_request'}}
     name: build & test
     runs-on: ubuntu-latest
     steps:
